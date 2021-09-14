@@ -3,10 +3,6 @@ using System.IO;
 using System.Security.Cryptography;
 
 
-/*var p = new ParseXML();
-p.GetCommentedCodeSectionFromPomFile("C:\\pomfile.xml");
-Console.ReadKey();
-
 string filePath = "C:\\pythontest.tar.gz";
 string hashString = string.Empty;
 if (File.Exists(filePath))
@@ -20,4 +16,4 @@ byte[] ComputeSha215Hash(Stream stream)
 {
     using SHA512 sha = new SHA512Managed();
     return sha.ComputeHash(stream);
-}*/
+}
