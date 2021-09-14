@@ -9,6 +9,7 @@ if (File.Exists(filePath))
 {
     using var fileStream = File.OpenRead(filePath);
     var hashBytes = ComputeSha215Hash(fileStream);
+    Console.WriteLine("COMPRA UMA NET");
     hashString = BitConverter.ToString(hashBytes).Replace("-", string.Empty);
 }
 Console.WriteLine(hashString);
